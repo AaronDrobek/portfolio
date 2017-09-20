@@ -23,38 +23,72 @@
   to { transform: rotate(360deg); }
 }
 .container_fluid{
-  height: 10vw;
+  height: 6vw;
   overflow: hidden;
-  background-color: #333;
+  background-image: url('../images/tweed/tweed.png');
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
 }
 .navbar-header{
-  width: 100vw;
   display: flex;
-  padding-top: 3vw;
+
+}
+.picture{
+  border-radius: 50%;
+  width:12vw;
+  height:15vw;
 }
 .navbar-header a{
-
+  font-size: 22pt;
+  color: teal;
+  font-family: cursive;
+  text-decoration: none;
   margin-left: 10vw;
 }
+.home_header{
+  display: flex;
+  justify-content: space-around;
+}
+.home_header h1{
+  /*padding-bottom: 8vw;*/
+}
+.about_box{
+  background-clip: padding-box;
+  margin-top: 5vw;
+  position: fixed;
+  padding-top: 10vw;
+  width: 100vw;
+  height: 65vw;
+  background-image: url("../images/tim-arterbury-267949.jpg");
+  background-size: cover;
 
+}
+.portfolio_box{
+  margin-top: 5vw;
+  position: fixed;
+  padding-top: 10vw;
+  width: 100vw;
+  height: 65vw;
+  background-image: url("../images/escheresque_ste/escheresque_ste.png");
+  
+
+}
 .home_box{
+  font-family: cursive;
   position: inherit;
   padding-left: 25vw;
-  padding-top: 20vw;
-  width: 100vw;
-  height: 100%;
+  padding-top: 10vw;
+  width: 75vw;
+  height: 45vw;
   background-image: url("../images/philip-swinburn-60229.jpg");
   background-size: contain;
 }
+
 .home_text{
   padding-left: 3vw;
-  padding-top: 5vw;
+  padding-top: 1vw;
   width: 45vw;
-  height: 45vw;
-  background-color: rgba(169,169,169,.5);
-
-
+  height: 35vw;
+  background-color: rgba(169,169,169,.7);
 }
