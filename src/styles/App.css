@@ -24,9 +24,9 @@
 }
 .container_fluid{
   height: 10vw;
-  /*overflow: hidden;*/
+  overflow: hidden;
   background-color: #333;
-  /*position: fixed;*/
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -36,7 +36,25 @@
   padding-top: 3vw;
 }
 .navbar-header a{
+
   margin-left: 10vw;
+}
+
+.home_box{
+  position: inherit;
+  padding-left: 25vw;
+  padding-top: 20vw;
+  width: 100vw;
+  height: 100%;
+  background-image: url("../images/philip-swinburn-60229.jpg");
+  background-size: contain;
+}
+.home_text{
+  padding-left: 3vw;
+  padding-top: 5vw;
+  width: 45vw;
+  height: 45vw;
+  background-color: rgba(169,169,169,.5);
 
 
 }

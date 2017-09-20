@@ -17,10 +17,10 @@ render(){
           <NavLink to='/home'>Home</NavLink>
           </h2>
           <h2>
-            <NavLink to='/'>About</NavLink>
+            <NavLink to='/about'>About</NavLink>
           </h2>
         <h2>
-          <NavLink to='/'>Portfolio</NavLink>
+          <NavLink to='/portfolio'>Portfolio</NavLink>
         </h2>
       </div>
     </div>
