@@ -22,7 +22,8 @@ render(){
         <h2>
           <NavLink to='/portfolio'>Portfolio</NavLink>
         </h2>
-      </div>
+        <a className="email" href="mailto:adrobek09@gmail.com" >adrobek09@gmail.com</a>
+        </div>
     </div>
 
     {this.props.children}

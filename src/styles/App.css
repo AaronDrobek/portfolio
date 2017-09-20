@@ -46,6 +46,17 @@
   text-decoration: none;
   margin-left: 10vw;
 }
+.navbar-header a:hover{
+  color: orange;
+}
+.navbar-header .email{
+  color: black;
+  font-family: "sans-sarif";
+  margin-left: 20vw;
+  margin-top: 2vw;
+  font-size: 20pt;
+
+}
 .home_header{
   display: flex;
   justify-content: space-around;
@@ -71,7 +82,7 @@
   width: 100vw;
   height: 65vw;
   background-image: url("../images/escheresque_ste/escheresque_ste.png");
-  
+
 
 }
 .home_box{
