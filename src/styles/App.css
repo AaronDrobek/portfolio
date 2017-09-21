@@ -42,20 +42,23 @@
 .navbar-header a{
   font-size: 22pt;
   color: teal;
-  font-family: cursive;
+  font-family: 'Anton', sans-serif;
   text-decoration: none;
-  margin-left: 10vw;
+  margin-left: 5vw;
 }
 .navbar-header a:hover{
   color: orange;
 }
 .navbar-header .email{
   color: black;
-  font-family: "sans-sarif";
-  margin-left: 20vw;
+  font-family: 'Anton', sans-serif;
+  margin-left: 15vw;
   margin-top: 2vw;
   font-size: 20pt;
 
+}
+a.selected{
+  color: orange;
 }
 .home_header{
   display: flex;
@@ -75,14 +78,22 @@
   background-size: cover;
 
 }
+.about_content{
+  margin-left: 20vw;
+  border: 2px solid white;
+  width: 60vw;
+  height: 35vw;
+  background-color: rgba(		0, 154, 154,.7);
+
+
+}
 .portfolio_box{
   margin-top: 5vw;
   position: fixed;
   padding-top: 10vw;
   width: 100vw;
   height: 65vw;
-  background-image: url("../images/escheresque_ste/escheresque_ste.png");
-
+  background-image: url("../images/escheresque_ste/escheresque_ste.png")
 
 }
 .home_box{
@@ -95,6 +106,47 @@
   background-image: url("../images/philip-swinburn-60229.jpg");
   background-size: contain;
 }
+.contacts_box{
+  padding-top: 10vw;
+  height: 45vw;
+  background-image: url('../images/jerry-kiesewetter-179264.jpg');
+  background-size: cover;
+}
+.contact_content{
+  margin-left: 2vw;
+}
+.contact_info{
+  color: rgb(229,229,229);
+  background-color: rgba(	31,128,31,.7);
+  border: 1px solid rgb(204,204,0);
+  width: 50vw;
+  height: 25vw;
+  border-radius: 8%;
+  margin-left: 25vw;
+  box-shadow: 4px 4px 4px gray;
+  padding-top: 0;
+}
+
+.contact_header{
+  text-align: center;
+  border-bottom: solid 1px rgb(204,204,0);
+
+
+}
+.references_box{
+  padding-top: 2vw;
+  background-image: url('../images/jeff-sheldon-3228.jpg');
+  background-size: contain;
+}
+
+.reference_info{
+  background-color: rgba(169,169,169,.7);
+  width: 90vw;
+  margin-left: 3vw;
+  margin-top: 6vw;
+  border: 1px solid blue;
+}
+
 
 .home_text{
   padding-left: 3vw;
