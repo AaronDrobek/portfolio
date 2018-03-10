@@ -13,6 +13,7 @@ console.log(this.props.text);
   <div>
     <div className="container_fluid">
       <div className="navbar-header">
+      
         <h2>
           <NavLink activeClassName="selected" to='/home'>Home</NavLink>
           </h2>
